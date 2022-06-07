@@ -1,0 +1,89 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url(./images/moroccan-flower\(1\).png);
+}
+
+.wrapper {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+header {
+  background-color: greenyellow;
+  padding: 20px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+  height: 80px;
+}
+
+.head-li {
+  display: flex;
+  list-style: none;
+}
+
+.head-li li {
+  padding: 20px;
+}
+
+.head-li li a {
+  text-decoration: none;
+  color: black;
+}
+
+main {
+  display: flex;
+  padding: 20px;
+  background-color: white;
+}
+
+.second-section img {
+  width: 50%;
+  float: left;
+  margin-right: 8px;
+}
+
+button {
+  background-color: greenyellow;
+  color: white;
+  padding: 8px 16px;
+}
+
+.first-section {
+  flex: 2;
+  padding-right: 16px;
+}
+
+.second-section {
+  flex: 3;
+  padding-left: 16px;
+}
+
+.right {
+  text-align: right;
+}
+
+footer {
+  text-align: center;
+  padding: 8px;
+}
+
+.sec {
+  padding-left: 40px;
+}
